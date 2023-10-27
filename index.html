@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <link rel="stylesheet" href="css/style.css"/>
+   <link rel="stylesheet" href="css/media.css"/>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <title>Большой театр</title>
+</head>
+
+<body id="body">
+   <div class="wrapper">
+      <div class="content">
+         <header class="header">
+            <div class="container">
+               <div class="header__row">
+                  
+                  <aside class="header-aside">
+                     <div class="header-aside__text">
+                        контактная информация
+                     </div>
+                     <div class="header-aside__line">
+                        <img src="img/header/Line.png" alt="">
+                     </div>
+                     <div class="header-aside__icons">
+                        <a href="">
+                           <svg class="header-aside__icons-svg" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M17.875 0H8.125C3.63838 0 0 3.63838 0 8.125V17.875C0 22.3616 3.63838 26 8.125 26H17.875C22.3616 26 26 22.3616 26 17.875V8.125C26 3.63838 22.3616 0 17.875 0ZM23.5625 17.875C23.5625 21.0112 21.0112 23.5625 17.875 23.5625H8.125C4.98875 23.5625 2.4375 21.0112 2.4375 17.875V8.125C2.4375 4.98875 4.98875 2.4375 8.125 2.4375H17.875C21.0112 2.4375 23.5625 4.98875 23.5625 8.125V17.875Z"/>
+                              <path d="M13 6.5C9.41037 6.5 6.5 9.41037 6.5 13C6.5 16.5896 9.41037 19.5 13 19.5C16.5896 19.5 19.5 16.5896 19.5 13C19.5 9.41037 16.5896 6.5 13 6.5ZM13 17.0625C10.7607 17.0625 8.9375 15.2393 8.9375 13C8.9375 10.7591 10.7607 8.9375 13 8.9375C15.2393 8.9375 17.0625 10.7591 17.0625 13C17.0625 15.2393 15.2393 17.0625 13 17.0625Z"/>
+                              <path d="M19.9854 6.87891C20.4637 6.87891 20.8515 6.49114 20.8515 6.01279C20.8515 5.53444 20.4637 5.14667 19.9854 5.14667C19.507 5.14667 19.1193 5.53444 19.1193 6.01279C19.1193 6.49114 19.507 6.87891 19.9854 6.87891Z"/>
+                           </svg> 
+                        </a>
+                        <a href="">
+                           <svg class="header-aside__icons-svg" width="15" height="26" viewBox="0 0 15 26" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M14.4351 0.00540974L10.8373 0C6.7953 0 4.18317 2.51147 4.18317 6.39863V9.34883H0.565722C0.253132 9.34883 0 9.58632 0 9.87926V14.1538C0 14.4467 0.253421 14.6839 0.565722 14.6839H4.18317V25.4698C4.18317 25.7628 4.4363 26 4.74889 26H9.46863C9.78122 26 10.0343 25.7625 10.0343 25.4698V14.6839H14.264C14.5766 14.6839 14.8297 14.4467 14.8297 14.1538L14.8314 9.87926C14.8314 9.73861 14.7717 9.6039 14.6658 9.50436C14.5598 9.40483 14.4155 9.34883 14.2654 9.34883H10.0343V6.84791C10.0343 5.64587 10.34 5.03565 12.0109 5.03565L14.4346 5.03484C14.7469 5.03484 15 4.79735 15 4.50469V0.535564C15 0.243168 14.7472 0.00595071 14.4351 0.00540974Z"/>
+                           </svg>
+                        </a>
+                        <a href="">
+                           <svg class="header-aside__icons-svg" width="26" height="14" viewBox="0 0 26 14" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.8621 12.6435C25.8306 12.5795 25.8013 12.5264 25.774 12.4838C25.3229 11.7171 24.4609 10.7759 23.1884 9.66014L23.1615 9.63459L23.1481 9.62206L23.1345 9.60922H23.1208C22.5433 9.08965 22.1776 8.7403 22.0245 8.56144C21.7442 8.22073 21.6815 7.87586 21.8346 7.52642C21.9428 7.26241 22.3492 6.70485 23.053 5.85298C23.4231 5.40152 23.7163 5.03968 23.9328 4.76708C25.4942 2.80801 26.1711 1.55614 25.9634 1.01098L25.8828 0.883578C25.8286 0.80688 25.6887 0.736714 25.4634 0.672725C25.2375 0.608869 24.9488 0.598309 24.5967 0.640865L20.6981 0.666281C20.635 0.64516 20.5448 0.647129 20.4273 0.672725C20.31 0.698321 20.2513 0.711164 20.2513 0.711164L20.1834 0.743158L20.1295 0.781597C20.0844 0.807014 20.0348 0.851717 19.9806 0.915617C19.9267 0.979294 19.8816 1.05402 19.8455 1.13918C19.4211 2.16977 18.9385 3.12796 18.3969 4.0137C18.063 4.54186 17.7563 4.99959 17.4762 5.38715C17.1965 5.77458 16.9619 6.06003 16.7725 6.243C16.5828 6.42616 16.4117 6.57289 16.2579 6.68373C16.1045 6.79461 15.9873 6.84146 15.9062 6.82432C15.8249 6.80719 15.7483 6.79018 15.6758 6.77318C15.5495 6.69648 15.448 6.59217 15.3714 6.46017C15.2945 6.32816 15.2427 6.16201 15.2156 5.96185C15.1887 5.76156 15.1728 5.58928 15.1682 5.44443C15.164 5.29976 15.1659 5.09513 15.1751 4.83111C15.1845 4.56697 15.1887 4.38824 15.1887 4.29454C15.1887 3.97083 15.1954 3.61952 15.2088 3.2405C15.2225 2.86148 15.2335 2.56118 15.2428 2.33995C15.252 2.11849 15.2562 1.88419 15.2562 1.63718C15.2562 1.39017 15.2403 1.19646 15.2088 1.05586C15.1777 0.915438 15.13 0.779136 15.067 0.646995C15.0037 0.514988 14.9111 0.412873 14.7895 0.340381C14.6677 0.267979 14.5163 0.210523 14.3361 0.167833C13.8577 0.0656732 13.2486 0.0104095 12.5084 0.00181783C10.8299 -0.0151864 9.75134 0.0871074 9.27303 0.308565C9.08351 0.402133 8.91202 0.529978 8.75868 0.691698C8.59619 0.879147 8.57353 0.981442 8.69083 0.998267C9.23239 1.07483 9.61578 1.25798 9.84143 1.54755L9.92274 1.70099C9.98599 1.8117 10.0491 2.00769 10.1124 2.28871C10.1755 2.56973 10.2162 2.88059 10.2341 3.22112C10.2792 3.84299 10.2792 4.37531 10.2341 4.81814C10.1889 5.26114 10.1463 5.60602 10.1055 5.85302C10.0648 6.10003 10.0039 6.30019 9.92274 6.45345C9.84143 6.60676 9.78733 6.70046 9.76021 6.73447C9.73314 6.76848 9.71057 6.78991 9.69264 6.79833C9.57534 6.84075 9.45334 6.86236 9.32708 6.86236C9.20063 6.86236 9.04729 6.80267 8.86683 6.68337C8.68642 6.56407 8.49918 6.4002 8.30511 6.1915C8.11105 5.98275 7.89218 5.69104 7.64843 5.31632C7.40486 4.9416 7.15214 4.49873 6.89042 3.9877L6.67388 3.6171C6.53851 3.37868 6.35359 3.03153 6.11894 2.57595C5.88415 2.12019 5.67661 1.67933 5.4962 1.25346C5.42409 1.07461 5.31575 0.938439 5.17137 0.844737L5.10361 0.806298C5.05857 0.772289 4.98626 0.736177 4.88707 0.697694C4.78774 0.659256 4.68409 0.631691 4.57571 0.614731L0.866541 0.640148C0.487513 0.640148 0.230338 0.721187 0.0949232 0.88304L0.0407288 0.959604C0.0136553 1.00225 0 1.07036 0 1.1641C0 1.25781 0.0270735 1.37281 0.0812679 1.50898C0.622738 2.71001 1.21157 3.86832 1.84778 4.98406C2.48398 6.09981 3.03683 6.99857 3.50599 7.67955C3.97525 8.36102 4.45357 9.00418 4.94094 9.60873C5.42831 10.2135 5.75091 10.6011 5.90875 10.7713C6.06679 10.9419 6.19092 11.0694 6.28115 11.1546L6.61964 11.4612C6.83622 11.6656 7.15428 11.9105 7.57394 12.1957C7.9937 12.4812 8.4584 12.7622 8.9683 13.0392C9.47828 13.3158 10.0716 13.5415 10.7485 13.7161C11.4253 13.8908 12.0841 13.961 12.7249 13.9271H14.2817C14.5975 13.9014 14.8367 13.8077 14.9992 13.646L15.0531 13.5819C15.0893 13.5311 15.1232 13.4521 15.1545 13.3459C15.1862 13.2394 15.2019 13.1221 15.2019 12.9945C15.1927 12.6284 15.2222 12.2984 15.2897 12.0045C15.3572 11.7108 15.4341 11.4894 15.5201 11.3402C15.6061 11.1912 15.7031 11.0655 15.8111 10.9635C15.9193 10.8614 15.9964 10.7995 16.0416 10.7782C16.0865 10.7567 16.1224 10.7422 16.1495 10.7335C16.3661 10.6654 16.621 10.7313 16.9146 10.9317C17.2079 11.1318 17.4831 11.379 17.7404 11.6727C17.9977 11.9667 18.3067 12.2965 18.6676 12.6627C19.0288 13.029 19.3446 13.3013 19.6152 13.4804L19.8858 13.6337C20.0666 13.736 20.3012 13.8297 20.5901 13.9149C20.8784 14 21.131 14.0213 21.3479 13.9787L24.8133 13.9277C25.1561 13.9277 25.4228 13.8742 25.612 13.7679C25.8015 13.6614 25.9141 13.5441 25.9504 13.4166C25.9867 13.2888 25.9886 13.144 25.9573 12.982C25.9252 12.8204 25.8936 12.7074 25.8621 12.6435Z"/>
+                           </svg> 
+                        </a>
+                        <a href="">
+                           <svg class="header-aside__icons-svg" width="26" height="18" viewBox="0 0 26 18" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M20.6001 0H5.39987C2.4176 0 0 2.36527 0 5.28298V12.717C0 15.6347 2.4176 18 5.39987 18H20.6001C23.5824 18 26 15.6347 26 12.717V5.28298C26 2.36527 23.5824 0 20.6001 0ZM16.9482 9.36169L9.83858 12.6792C9.64914 12.7676 9.43031 12.6324 9.43031 12.4271V5.5848C9.43031 5.37656 9.65489 5.24159 9.84473 5.33573L16.9544 8.86056C17.1658 8.96535 17.1621 9.26193 16.9482 9.36169Z"/>
+                           </svg>  
+                        </a>
+                     </div>
+                  </aside>
+                  <div class="header-middle">
+                     <div class="header-middle-top">
+                        <div class="header-middle-top__row">
+                           <div class="header__burger">
+                              <span></span>
+                           </div>
+                           <nav class="header-middle-top__menu">
+                              <ul class="header-middle-top__menu__list">
+                                 <li>
+                                    <a href="#body" class="header-middle-top__menu__link">Главная</a>
+                                 </li>
+                                 <li>
+                                    <a href="#about" class="header-middle-top__menu__link">о театре</a>
+                                 </li>
+                                 <li>
+                                    <a href="#our" class="header-middle-top__menu__link">Наши постановки</a>
+                                 </li>
+                                 <li>
+                                    <a href="#partners" class="header-middle-top__menu__link">партнеры театра</a>
+                                 </li>
+                                 <li>
+                                    <a href="#contacts" class="header-middle-top__menu__link">контакты</a>
+                                 </li>
+                                 
+                              </ul>
+                              <div class="header__mobile-icons">
+                                 <a href="" class="header__mobile-icons__link"><img src="img/header/mobileIcons/1.png" alt=""></a>
+                                 <a href="" class="header__mobile-icons__link"><img src="img/header/mobileIcons/2.png" alt=""></a>
+                                 <a href="" class="header__mobile-icons__link"><img src="img/header/mobileIcons/3.png" alt=""></a>
+                                 <a href="" class="header__mobile-icons__link"><img src="img/header/mobileIcons/4.png" alt=""></a>
+                              </div>
+                           </nav>
+                           <div class="header-middle-top__phone">+7 495 123-45-67</div>
+                        </div>
+                     </div>
+                     <div class="header-middle-bottom">
+                        <div class="header-middle-bottom__row">
+                           <div class="header-middle-bottom__body">
+                              <div class="header-middle-bottom__body__title">Большой театр</div>
+                              <div class="header-middle-bottom__body__text">Большо́й теа́тр — петербургский театр,
+                                 существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое
+                                 постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных
+                                 зданий в Европе XVIII.</div>
+                              <a href="" class="header-middle-bottom__body__btn">афиша</a>
+                           </div>
+                           <div class="swiper-buttons">
+                              <button class="swiper-button-prev">Пред</button>
+                              <button class="swiper-button-next">след</button>
+                           </div>
+                           <div class="header__slider swiper-container">
+                              <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                    <img src="img/slider/1.jpg" alt="">
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/slider/2.jpg" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <main class="main">
+            <div class="about">
+               <div class="container">
+                  <div id="about" class="about__title title"><span>о</span> театре</div>
+                  <div class="about__row">
+                     <div class="about__column">
+                        <div class="about__item">
+                           <div class="about__item__title">Самый лучший театр СПБ</div>
+                           <div class="about__item__text">Как свидетельствуют архивные документы, первое каменное здание
+                              Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после
+                              того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила
+                              немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект
+                              театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его
+                              состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно
+                              считать 1784 год.</div>
+                        </div>
+                     </div>
+                     <div class="about__column">
+                        <div class="about__item">
+                           <div class="about__item__title">немного о цифрах</div>
+                           <img src="img/about/armchair.svg" alt="" class="about__item__img">
+                           <div class="about__item__text2"><span>1600</span> посадочный мест</div>
+                           <img src="img/about/theater.svg" alt="" class="about__item__img">
+                           <div class="about__item__text2"><span>350</span> лет истории</div>
+                        </div>
+                     </div>
+                     <div class="about__column about__column3">
+                        <div class="about__item">
+                           <img class="about__column__img3" src="img/about/1.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="our" id="our">
+               
+                  <div class="our__title title">
+                     <span>наши</span> постановки
+                  </div>
+                  <div class="our__slider">
+                     <div class="slider-wrap">
+                        <div class="slide card1">
+                           <img src="img/slider2/1.jpg" alt="">
+                           <div class="slide__text1 slide-post-oskar">
+                              ОСКАР 2020
+                           </div>
+                           <div class="slide__text2 slide-post-sent">
+                              сентябрь 2020
+                           </div>
+                           <div class="slider__actions">
+                              <a href="" class="slider__actions__link"><img src="img/slider2/search.png" alt=""></a>
+                              
+                           </div>
+                        </div>
+                        <div class="slide card2">
+                           <img src="img/slider2/2.jpg" alt="">
+                           <div class="slider__actions">
+                              <a href="" class="slider__actions__link"><img src="img/slider2/search.png" alt=""></a>
+                              
+                           </div>
+                        </div>
+                        <div class="slide card3">
+                           <img src="img/slider2/3.jpg" alt="">
+                           <div class="slide-post3-gramoph">золотой грамофон</div>
+                           <div class="slide-post3-juil">июль 2020</div>
+                           <div class="slider__actions">
+                              <a href="" class="slider__actions__link"><img src="img/slider2/search.png" alt=""></a>
+                              
+                           </div>
+                        </div>
+                        <div class="slide card4">
+                           <img src="img/slider2/4.jpg" alt="">
+                           <div class="slide-post4-shelk">щелкунчик</div>
+                           <div class="slide-post4-may">май 2020</div>
+                           <div class="slider__actions">
+                              <a href="" class="slider__actions__link"><img src="img/slider2/search.png" alt=""></a>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="our__body">
+                     <div class="our__body__row">
+                        <div class="our__body__left">
+                           <div class="our__body__left__dates">
+                              2018
+                           </div>
+                           <div class="our__body__left__dates">
+                              2019
+                           </div>
+                           <div class="our__body__left__dates">
+                              2020
+                           </div>
+                        </div>
+                        <div class="our__body__right">
+                           <div class="our__body__right__stars">
+                              <img src="img/our/star.png" alt="">
+                              <img src="img/our/star.png" alt="">
+                              <img src="img/our/star.png" alt="">
+                              <img src="img/our/star.png" alt="">
+                              <img src="img/our/star.png" alt="">
+                           </div>
+                           <div class="our__body__right__text">
+                              Лучший театр <br/>
+                              по мнению&nbsp;театральных критиков Парижа
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               
+            </div>
+            <div class="partners">
+               <div class="container">
+                  <div id="partners" class="partners__title title"><span>партнеры</span> театра</div>
+                  <div class="partners__row">
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="partners__column">
+                        <div class="partners__item">
+                           <div class="partners__img">
+                              <img src="img/partners/logo.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="contacts" id="contacts">
+               <div class="container">
+                  <div class="contacts__title title"><SPAn>стать</SPAn> меценатом</div>
+                  <div class="contacts__row">
+                     <div class="contacts-left">
+                        <div class="contacts-left__text">
+                           +7 (812) 123-45-55
+                        </div>
+                        <div class="contacts-left__text">
+                           +7 (812) 123-45-66
+                        </div>
+                        <div class="contacts-left__text">
+                           info@theater.ru
+                        </div>
+                        <div class="contacts-left__text">
+                           г. санкт-петербург, невский 140
+                        </div>
+                     </div>
+                     <div class="contacts-right">
+                        <form action="#" method="post" class="contacts-right__form">
+                           <div class="form__columns__row">
+                              <div class="form__columns__input">
+                                 <input placeholder="Имя" type="text" name="username">
+                                 <input placeholder="Телефон" type="tel" name="userphone">
+                              </div>
+                              <div class="form__columns__input">
+                                 <input placeholder="Компания" type="text" name="usercompany">
+                                 <input placeholder="E-mail" type="text" name="useremail">
+                              </div>
+                              <div class="form__columns__input">
+                              <textarea name="text" placeholder="Сообщение" class="form__columns__textarea"></textarea>
+                              </div>
+                           </div>
+                           <div class="form__bottom">
+                              <div class="form__bottom__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</div>
+                              <button type="submit" class="form__bottom__btn">
+                                 отправить
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-line">
+
+            </div>
+            <div class="footer__row">
+               <div class="footer-left footer-text">
+                  (с) Все права защищены. Большой театр. 2020
+               </div>
+               <div class="footer-right footer-text">
+                  Разработано d-e-n.ru
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <!-- SWIPER -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
